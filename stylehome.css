@@ -1,0 +1,314 @@
+body {
+    background: #f7f3f9;
+    border: 0;
+    margin: 0 auto;
+    max-width: 1050px;
+    padding: 4.3%;
+}
+
+.header_mobie {
+    display: none;
+}
+
+header {
+    display: flex;
+    font-family: Arial, SansSerif;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    height: 5%;
+    justify-content: space-between;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    height: auto;
+    width: 325px;
+}
+
+p {
+    font-family: Arial, SansSerif;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+
+a {
+    color: #e94444;
+    font-family: Arial, SansSerif;
+    text-decoration: none; /* Убираем подчёркивание */
+}
+
+h1 {
+    font-family: Arial, SansSerif;
+    font-size: 250%;
+}
+
+h2 {
+    font-family: Arial, SansSerif;
+    font-size: 200%;
+}
+
+h3 {
+    font-family: Arial, SansSerif;
+    font-size: 110%;
+}
+
+li {
+    font-family: Arial, SansSerif;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+
+.section1, .section2 {
+    height: auto;
+    margin: 0 auto;
+    padding: 5% 0% 7%;
+    width: 30%;
+}
+
+.section3 {
+    height: auto;
+    padding: 5% 2% 2% 0%;
+    width: 100%;
+}
+
+.section5 {
+    height: auto;
+    padding: 4% 2% 4% 0%;
+    width: 30%;
+}
+
+.section4 {
+    padding: 10% 0%;
+}
+
+.section7 {
+    height: auto;
+    padding: 6% 2% 2% 0%;
+    width: 30%;
+}
+
+.button1, .button2 {
+    border: 2px solid #e94444;
+    border-radius: 22px;
+    color: #e94444;
+    padding: 12px 15px; /* Поля */
+}
+
+.button3 {
+    border: 2px solid black;
+    border-radius: 100px;
+    color: #000000;
+    display: flex;
+    height: 23px;
+    padding: 10px 10px; /* Поля */
+    width: 23px;
+}
+
+.button1:hover, .button2:hover {
+    background: #e94444;
+    color: #f7f3f9;
+    transition: all 0.4s;
+}
+
+.button3:hover {
+    background: #000000;
+    color: #f7f3f9;
+    transition: all 0.4s;
+}
+
+.sec101, .sec102, .sec103, .sec104 {
+    height: 22.5%;
+    padding: 1% 1%;
+    width: 22.5%;
+}
+
+.ssyl2 {
+    display: block;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    text-align: right;
+}
+
+.ssyl1 {
+    margin-left: 7%;
+}
+
+.sec41, .sec42, .sec43, .sec44 {
+    height: auto;
+    padding: 2% 2% 0% 0%;
+    width: 47.5%;
+}
+
+.sec61 {
+    height: auto;
+    padding-left: 10%;
+    padding-top: 16%;
+    width: 90%;
+}
+
+.sec81 {
+    height: auto;
+    padding-left: 10%;
+    padding-top: 10%;
+    width: 90%;
+}
+
+.f1 {
+    height: auto;
+    min-width: 60px;
+    width: 100%;
+    max-width: 70px;
+}
+
+.f2, .f3 {
+    width: 80%;
+    padding-left: 5%;
+}
+
+.f4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 230px;
+    padding: 2%;
+}
+
+.block1, .block2, .block3, .block4 {
+    display: flex;
+}
+
+.section9 {
+    padding-top: 3%;
+}
+
+.section10 {
+    display: block;
+    width: 100%;
+}
+
+.ssyl3 {
+    padding-top: 10%;
+}
+
+.blockf1 {
+    display: flex;
+    justify-content: space-between;
+    min-width: 60%;
+}
+
+.space {
+    padding-top: 10%;
+}
+
+.blockf2pad {
+    justify-content: space-around;
+    width: 24%;
+
+}
+
+.head2 {
+    display: flex;
+}
+
+.nav1, .nav2, .nav3, .nav4 {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover {
+    color: #9b3f03;
+}
+
+nav {
+    font-size: 85%;
+    padding-top: 9%;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        padding: 4%
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: none
+    }
+
+    .header_mobie {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .logo {
+        justify-content: flex-start;
+        width: 200px;
+    }
+
+    .label_mobie {
+        color: #000000;
+        display: block;
+        font-size: 170%;
+        padding: 12px 15px; /* Поля */
+        transform: rotate(90deg);
+    }
+
+    h1 {
+        font-size: 180%
+    }
+
+    h2 {
+        font-size: 140%
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .block1, .block2, .block3, .block4, footer, .blockf1 {
+        display: block
+    }
+
+    .section1, .section2, .section5, .section7 {
+        width: 100%
+    }
+
+    .sec41, .sec42, .sec43, .sec44, .sec61 {
+        width: 100%
+    }
+
+    .sec101, .sec102, .sec103, .sec104 {
+        height: 45%;
+        padding: 1%;
+        width: 45%;
+    }
+
+    .ssyl3 {
+        padding-top: 5%
+    }
+
+    .sec61, .sec81 {
+        padding-left: 0%;
+        padding-top: 7%;
+        width: 100%;
+    }
+
+    .blockf2pad {
+        width: 100%
+    }
+
+    .f4 {
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        max-width: none;
+        min-width: 200px;
+    }
+
+    .f1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
